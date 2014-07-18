@@ -21,6 +21,7 @@
 		CEB283591978B98100098E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB2833B1978B98100098E10 /* UIKit.framework */; };
 		CEB283611978B98100098E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB2835F1978B98100098E10 /* InfoPlist.strings */; };
 		CEB283631978B98100098E10 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB283621978B98100098E10 /* GitTestTests.m */; };
+		CEB2836E1978C06A00098E10 /* ZJBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB2836D1978C06A00098E10 /* ZJBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CEB2835E1978B98100098E10 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		CEB283601978B98100098E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEB283621978B98100098E10 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		CEB2836C1978C06A00098E10 /* ZJBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJBTest.h; sourceTree = "<group>"; };
+		CEB2836D1978C06A00098E10 /* ZJBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				CEB283461978B98100098E10 /* ZJBAppDelegate.h */,
+				CEB2836C1978C06A00098E10 /* ZJBTest.h */,
+				CEB2836D1978C06A00098E10 /* ZJBTest.m */,
 				CEB283471978B98100098E10 /* ZJBAppDelegate.m */,
 				CEB283491978B98100098E10 /* Main.storyboard */,
 				CEB2834C1978B98100098E10 /* ZJBViewController.h */,
@@ -252,6 +257,7 @@
 			files = (
 				CEB2834E1978B98100098E10 /* ZJBViewController.m in Sources */,
 				CEB283441978B98100098E10 /* main.m in Sources */,
+				CEB2836E1978C06A00098E10 /* ZJBTest.m in Sources */,
 				CEB283481978B98100098E10 /* ZJBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
